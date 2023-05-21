@@ -1,7 +1,8 @@
+
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-function App() {
+function AnimalPage() {
   const [animals, setAnimals] = useState([]);
   const [selectedAnimal, setSelectedAnimal] = useState(null);
 
@@ -52,4 +53,4 @@ function App() {
   );
 }
 
-export default App;
+export default AnimalPage;
